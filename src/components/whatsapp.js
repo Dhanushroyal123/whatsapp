@@ -69,7 +69,7 @@ function Whatsapp() {
               />
             </div>
           </div>
-          <div style={{ overflow: 'scroll', height: '85vh' }}>
+          <div style={{ overflow: 'auto', height: '631px' }}>
             <div className='inboxes'>
               <Avatar />
               &nbsp;&nbsp;&nbsp;
@@ -170,7 +170,7 @@ function Whatsapp() {
         </div>
         <div
           className='side-bar-messages'
-          style={{ background: `url(${back})`, backgroundSize: '500px 750px' }}
+          style={{ background: `url(${back})`, backgroundSize: '500px 690px' }}
         >
           <div className='chat-bar-header'>
             <div
